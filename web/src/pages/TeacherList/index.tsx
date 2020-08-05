@@ -3,24 +3,16 @@ import PageHeader from '../../components/PageHeader';
 
 import './style.css'
 import TeacherItem from '../../components/TeacherItem';
+import Input from '../../components/Input';
 
 function TeacherList() {
     return (
         <div id="page-teacher-list" className="container">
             <PageHeader title="Estos son los profesores disponibles">
                 <form id="search-teachers">
-                    <div className="input-block">
-                        <label htmlFor="subject">Materia</label>
-                        <input type="text" id="subject"/>
-                    </div>
-                    <div className="input-block">
-                        <label htmlFor="week_day">Dia de la semana</label>
-                        <input type="text" id="subject"/>
-                    </div>
-                    <div className="input-block">
-                        <label htmlFor="time">Hora</label>
-                        <input type="text" id="subject"/>
-                    </div>
+                    <Input name="subject" label="Matéria"/>
+                    <Input name="week_day" label="Dia de la semana"/>
+                    <Input type="time" name="time" label="Hora"/>                
                 </form>
             </PageHeader>    
 
