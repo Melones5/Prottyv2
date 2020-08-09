@@ -86,3 +86,12 @@
 9. Componente PageHeader
 10. Lista de profesores
 
+### Quito Día (Finalizando aplicación Mobile)
+1. Listado de profesores
+2. Listado de profesores favoritos
+3. Filtro de profesores
+4. Conectando con la API(total de conexiones, listado de profesores)
+5. Agregando borrar favoritos
+6. Listado de favoritos
+7. Desafios a futuroo.... (Kappa)
+
